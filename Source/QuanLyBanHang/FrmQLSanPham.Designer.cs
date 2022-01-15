@@ -219,9 +219,9 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(21, 235);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 20);
+            this.label7.Size = new System.Drawing.Size(74, 20);
             this.label7.TabIndex = 55;
-            this.label7.Text = "QUALITY";
+            this.label7.Text = "QUANTITY";
             // 
             // txtDonGia
             // 

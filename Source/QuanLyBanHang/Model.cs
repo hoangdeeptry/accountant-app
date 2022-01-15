@@ -14,7 +14,7 @@ namespace QuanLyBanHang
 
         public static string path;
 
-        public static string pathDefault = @"C:\Users\Admin\Desktop\DA_PTPM_NHOM_3\Source\QuanLyBanHang\Resources\";
+        public static string pathDefault = @"C:\Users\Admin\Desktop\test\SE_FP_G9\Source\QuanLyBanHang\Resources\";
 
         public static string imgChoose;
 

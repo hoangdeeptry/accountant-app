@@ -79,25 +79,9 @@ namespace QuanLyBanHang
 
         private void iconPictureBox8_Click(object sender, EventArgs e)
         {
-            try
-            {
-                if (Model.maAM != null)
-                {
-                    if (MessageBox.Show("Do you want to log out?", "Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-                    {
-                        TaiKhoan tk = db.TaiKhoans.SingleOrDefault(n => n.MaNV.Equals(null));
-                        tk.TrangThai = "Offline";
-                        Model.maAM = null;
-                        db.SubmitChanges();
-                        this.Hide();
-                        FrmDangNhap frmlogin = new FrmDangNhap();
-                        frmlogin.ShowDialog();
-                    }
-                }
-            }
-            catch (Exception ex) {
-                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            }
+            this.Hide();
+            FrmUser fuser = new FrmUser();
+            fuser.ShowDialog();
         }
 
         private void iconPictureBox7_Click(object sender, EventArgs e)

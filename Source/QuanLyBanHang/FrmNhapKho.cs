@@ -69,7 +69,7 @@ namespace QuanLyBanHang
 
         private void LoadDataSanPham()
         {
-            dataNhapKho.DataSource = from a in db.SanPhams where a.SoLuongTon <= 30
+            dataNhapKho.DataSource = from a in db.SanPhams 
                                      select new
                                      {
                                          a.MaSP,

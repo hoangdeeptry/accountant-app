@@ -102,7 +102,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Mã SP</Value>
+                              <Value>ID</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -132,7 +132,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Ten SP</Value>
+                              <Value>Name</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -162,7 +162,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>So Luong</Value>
+                              <Value>Quantity</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -192,7 +192,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Don Gia</Value>
+                              <Value>Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -222,7 +222,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Thanh Tien</Value>
+                              <Value>Total</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -360,7 +360,7 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>DonGia</rd:DefaultName>
+                      <rd:DefaultName>Value</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>Black</Color>
@@ -392,7 +392,7 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>ThanhTien</rd:DefaultName>
+                      <rd:DefaultName>Cost</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>Black</Color>
@@ -448,7 +448,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Tổng thanh toán:</Value>
+                <Value>Total:</Value>
                 <Style>
                   <FontFamily>Times New Roman</FontFamily>
                   <FontSize>16pt</FontSize>
@@ -492,7 +492,7 @@
                 </Style>
               </TextRun>
               <TextRun>
-                <Value>  VNĐ</Value>
+                <Value>  VND</Value>
                 <Style>
                   <FontFamily>Times New Roman</FontFamily>
                   <FontSize>16pt</FontSize>
@@ -527,7 +527,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Ngày:  </Value>
+                <Value>Date:  </Value>
                 <Style />
               </TextRun>
               <TextRun>
@@ -561,7 +561,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>Họ tên:  </Value>
+                <Value>Agency:  </Value>
                 <Style />
               </TextRun>
               <TextRun>

@@ -52,12 +52,12 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
             this.dataTemp = new System.Windows.Forms.DataGridView();
-            this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.maSPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenSPDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soLuongDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.donGiaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.thanhTienDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.receiptBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataTemp)).BeginInit();
@@ -104,6 +104,7 @@
             // 
             this.txtTenKH.BackColor = System.Drawing.Color.White;
             this.txtTenKH.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenKH.Enabled = false;
             this.txtTenKH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKH.ForeColor = System.Drawing.Color.Black;
             this.txtTenKH.Location = new System.Drawing.Point(102, 185);
@@ -187,9 +188,9 @@
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(24, 340);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(65, 20);
+            this.label7.Size = new System.Drawing.Size(74, 20);
             this.label7.TabIndex = 95;
-            this.label7.Text = "QUALITY";
+            this.label7.Text = "QUANTITY";
             // 
             // cbMaKH
             // 
@@ -349,10 +350,6 @@
             this.dataTemp.Size = new System.Drawing.Size(582, 283);
             this.dataTemp.TabIndex = 115;
             // 
-            // receiptBindingSource
-            // 
-            this.receiptBindingSource.DataSource = typeof(QuanLyBanHang.Receipt);
-            // 
             // maSPDataGridViewTextBoxColumn
             // 
             this.maSPDataGridViewTextBoxColumn.DataPropertyName = "MaSP";
@@ -387,6 +384,10 @@
             this.thanhTienDataGridViewTextBoxColumn.HeaderText = "Total";
             this.thanhTienDataGridViewTextBoxColumn.Name = "thanhTienDataGridViewTextBoxColumn";
             this.thanhTienDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // receiptBindingSource
+            // 
+            this.receiptBindingSource.DataSource = typeof(QuanLyBanHang.Receipt);
             // 
             // FrmBanHang
             // 
